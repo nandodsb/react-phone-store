@@ -31,6 +31,7 @@ export default class CartColumns extends Component {
           </div>
 
         </div>
+        <hr className="d-none d-sm-block"/>
       </div>
     )
   }

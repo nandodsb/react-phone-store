@@ -22,7 +22,7 @@ export default function CartItem({item,value}) {
       </div>
 
       <div className="col-10 mx-auto col-lg-2">
-      <span className="d-lg-none">preço: R$ </span>
+      <span className="d-lg-none">preço: </span>
         {price}
       </div>
 
@@ -58,7 +58,7 @@ export default function CartItem({item,value}) {
       
 
       <div className="col-10 mx-auto col-lg-2">
-        <strong>total item: R$ {total}</strong>
+        <strong>total item: $ {total}</strong>
         <hr className="d-block d-sm-none"/>        
       </div>      
       

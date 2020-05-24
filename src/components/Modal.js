@@ -28,11 +28,11 @@ export default class Modal extends Component {
 
                       <img src={img} alt="product" className="img-fluid" />
                       <h5>{title}</h5>
-                      <h5 className="text-muted">price: R$ {price}</h5>
+                      <h5 className="text-muted">preço: $ {price}</h5>
 
                       <Link to="/">
                         <ButtonContainer onClick={() => closeModal()}>
-                          Loja
+                          Continuar Comprando
                         </ButtonContainer>
                       </Link>
 

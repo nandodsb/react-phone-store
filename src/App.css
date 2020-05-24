@@ -56,7 +56,9 @@ body {
 }
 
 hr,
-span {
+span,
+img {
   justify-content: center;
   align-items: center;
 }
+
