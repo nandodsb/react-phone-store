@@ -55,10 +55,10 @@ body {
   color: var(--mainYellow);
 }
 
-hr,
-span,
-img {
+
+
+#cart-Item {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-
